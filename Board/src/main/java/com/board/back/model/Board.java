@@ -20,7 +20,8 @@ public class Board {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer board_no;
+	@Column(name = "board_no")
+	private Integer no;
 
 	@Column(name = "board_type")
 	private String type;
@@ -46,12 +47,13 @@ public class Board {
 	@Column(name = "board_counts")
 	private Integer counts;
 
-	public Integer getBoard_no() {
-		return board_no;
+
+	public Integer getNo() {
+		return no;
 	}
 
-	public void setBoard_no(Integer board_no) {
-		this.board_no = board_no;
+	public void setNo(Integer no) {
+		this.no = no;
 	}
 
 	public String getType() {
