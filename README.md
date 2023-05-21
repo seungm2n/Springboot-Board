@@ -10,3 +10,5 @@
 
 ### 2023-05-21
 - Github Repository 생성 및 연동
+- Front / Back Project 1 Commit
+- Todo : 게시 이벤트 확인
